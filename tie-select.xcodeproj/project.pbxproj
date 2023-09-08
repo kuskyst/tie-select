@@ -1,0 +1,1022 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0011457C28F66C9000863DCE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0011455928F66C8F00863DCE /* LICENSE */; };
+		0011457D28F66C9000863DCE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0011455A28F66C8F00863DCE /* README.md */; };
+		0011457E28F66C9000863DCE /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011455C28F66C8F00863DCE /* FSCalendarCollectionView.m */; };
+		0011457F28F66C9000863DCE /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011455F28F66C8F00863DCE /* FSCalendarDelegationProxy.m */; };
+		0011458028F66C9000863DCE /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011456128F66C8F00863DCE /* FSCalendarDelegationFactory.m */; };
+		0011458128F66C9000863DCE /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011456828F66C8F00863DCE /* FSCalendarCell.m */; };
+		0011458228F66C9000863DCE /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011456928F66C8F00863DCE /* FSCalendarStickyHeader.m */; };
+		0011458328F66C9000863DCE /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011456A28F66C8F00863DCE /* FSCalendar.m */; };
+		0011458428F66C9000863DCE /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011456B28F66C8F00863DCE /* FSCalendarCollectionViewLayout.m */; };
+		0011458528F66C9000863DCE /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011456C28F66C8F00863DCE /* FSCalendarWeekdayView.m */; };
+		0011458628F66C9000863DCE /* FSCalendarSeparatorDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011456F28F66C8F00863DCE /* FSCalendarSeparatorDecorationView.m */; };
+		0011458728F66C9000863DCE /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011457128F66C8F00863DCE /* FSCalendarExtensions.m */; };
+		0011458828F66C9000863DCE /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011457328F66C8F00863DCE /* FSCalendarConstants.m */; };
+		0011458928F66C9000863DCE /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011457428F66C8F00863DCE /* FSCalendarCalculator.m */; };
+		0011458A28F66C9000863DCE /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011457528F66C8F00863DCE /* FSCalendarHeaderView.m */; };
+		0011458B28F66C9000863DCE /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011457928F66C8F00863DCE /* FSCalendarTransitionCoordinator.m */; };
+		0011458C28F66C9000863DCE /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011457A28F66C8F00863DCE /* FSCalendarAppearance.m */; };
+		0016DC8528F67A8100796B62 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016DC8428F67A8100796B62 /* CalendarViewController.swift */; };
+		0016DC8728F67AE100796B62 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016DC8628F67AE100796B62 /* ListViewController.swift */; };
+		001AFD7128F65467003F32BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001AFD7028F65467003F32BC /* AppDelegate.swift */; };
+		001AFD7328F65467003F32BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001AFD7228F65467003F32BC /* SceneDelegate.swift */; };
+		001AFD7528F65467003F32BC /* HomeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001AFD7428F65467003F32BC /* HomeMenuViewController.swift */; };
+		001AFD7A28F65469003F32BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001AFD7928F65469003F32BC /* Assets.xcassets */; };
+		001AFD8828F65469003F32BC /* tie_selectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001AFD8728F65469003F32BC /* tie_selectTests.swift */; };
+		001AFD9228F65469003F32BC /* tie_selectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001AFD9128F65469003F32BC /* tie_selectUITests.swift */; };
+		001AFD9428F65469003F32BC /* tie_selectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001AFD9328F65469003F32BC /* tie_selectUITestsLaunchTests.swift */; };
+		001E068C28F6F04E00AD9924 /* Ex-UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E068B28F6F04E00AD9924 /* Ex-UIColor.swift */; };
+		001E068E28F6FAD600AD9924 /* TieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E068D28F6FAD600AD9924 /* TieTableViewCell.swift */; };
+		001E069028F6FE0E00AD9924 /* Ex-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E068F28F6FE0E00AD9924 /* Ex-String.swift */; };
+		001E069228F8319600AD9924 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E069128F8319600AD9924 /* UpdateViewController.swift */; };
+		001E069428F84CB900AD9924 /* Ex-AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E069328F84CB900AD9924 /* Ex-AppDelegate.swift */; };
+		001E069628F93C9200AD9924 /* Ex-UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E069528F93C9200AD9924 /* Ex-UIImage.swift */; };
+		001E069828F9E45F00AD9924 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E069728F9E45F00AD9924 /* HistoryModel.swift */; };
+		001E069C28FD93C900AD9924 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001E069B28FD93C900AD9924 /* Setting.storyboard */; };
+		0091858728F686AE000C10F8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091858628F686AE000C10F8 /* RegisterViewController.swift */; };
+		0091858A28F689AF000C10F8 /* CommonTextFierld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091858928F689AF000C10F8 /* CommonTextFierld.swift */; };
+		0091858D28F68FD3000C10F8 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091858C28F68FD3000C10F8 /* ColorConstants.swift */; };
+		00A5A97528FD953400369E28 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A5A97428FD953400369E28 /* Register.storyboard */; };
+		00A5A97728FD967F00369E28 /* Update.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A5A97628FD967F00369E28 /* Update.storyboard */; };
+		00A5A97A28FD982800369E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A5A97828FD982800369E28 /* Main.storyboard */; };
+		00A5A97B28FD982800369E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A5A97928FD982800369E28 /* LaunchScreen.storyboard */; };
+		00C5DB6C29A2271500881E3A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C5DB6B29A2271500881E3A /* CameraViewController.swift */; };
+		00C5DB6E29A2281600881E3A /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C5DB6D29A2281600881E3A /* Camera.storyboard */; };
+		00DC856A28F69719001F2B0A /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC856928F69719001F2B0A /* MainButton.swift */; };
+		00DC856C28F69892001F2B0A /* SubButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC856B28F69892001F2B0A /* SubButton.swift */; };
+		00DC856F28F6A0F9001F2B0A /* TieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC856E28F6A0F9001F2B0A /* TieModel.swift */; };
+		00DC857128F6B8DA001F2B0A /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC857028F6B8DA001F2B0A /* SettingViewController.swift */; };
+		19FBCBE8657BBEF413077F9C /* Pods_tie_select.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C12CFE94164C91FE263FC7 /* Pods_tie_select.framework */; };
+		C92B820D29D8496C00DAD48B /* TieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B820C29D8496C00DAD48B /* TieService.swift */; };
+		C92B820F29D8516000DAD48B /* HistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B820E29D8516000DAD48B /* HistoryService.swift */; };
+		C92B821429D862AD00DAD48B /* NotificationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B821329D862AD00DAD48B /* NotificationUtil.swift */; };
+		C92B821829D87BC500DAD48B /* PushTimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B821729D87BC500DAD48B /* PushTimeUtil.swift */; };
+		C92B821A29D89CC700DAD48B /* Ex-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B821929D89CC700DAD48B /* Ex-Date.swift */; };
+		C92B821D29D9461E00DAD48B /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B821C29D9461E00DAD48B /* VideoCapture.swift */; };
+		C92B821F29D9504C00DAD48B /* Ex-CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B821E29D9504C00DAD48B /* Ex-CIImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		001AFD8428F65469003F32BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001AFD6528F65467003F32BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 001AFD6C28F65467003F32BC;
+			remoteInfo = "tie-select";
+		};
+		001AFD8E28F65469003F32BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001AFD6528F65467003F32BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 001AFD6C28F65467003F32BC;
+			remoteInfo = "tie-select";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0011455928F66C8F00863DCE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0011455A28F66C8F00863DCE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0011455C28F66C8F00863DCE /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		0011455D28F66C8F00863DCE /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		0011455E28F66C8F00863DCE /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		0011455F28F66C8F00863DCE /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		0011456028F66C8F00863DCE /* FSCalendarExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarExtensions.h; sourceTree = "<group>"; };
+		0011456128F66C8F00863DCE /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		0011456228F66C8F00863DCE /* FSCalendarSeparatorDecorationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarSeparatorDecorationView.h; sourceTree = "<group>"; };
+		0011456328F66C8F00863DCE /* FSCalendarCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCalculator.h; sourceTree = "<group>"; };
+		0011456428F66C8F00863DCE /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		0011456528F66C8F00863DCE /* FSCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarConstants.h; sourceTree = "<group>"; };
+		0011456628F66C8F00863DCE /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAppearance.h; sourceTree = "<group>"; };
+		0011456728F66C8F00863DCE /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		0011456828F66C8F00863DCE /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
+		0011456928F66C8F00863DCE /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		0011456A28F66C8F00863DCE /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendar.m; sourceTree = "<group>"; };
+		0011456B28F66C8F00863DCE /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		0011456C28F66C8F00863DCE /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		0011456D28F66C8F00863DCE /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		0011456E28F66C8F00863DCE /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		0011456F28F66C8F00863DCE /* FSCalendarSeparatorDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarSeparatorDecorationView.m; sourceTree = "<group>"; };
+		0011457028F66C8F00863DCE /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		0011457128F66C8F00863DCE /* FSCalendarExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarExtensions.m; sourceTree = "<group>"; };
+		0011457228F66C8F00863DCE /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		0011457328F66C8F00863DCE /* FSCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarConstants.m; sourceTree = "<group>"; };
+		0011457428F66C8F00863DCE /* FSCalendarCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCalculator.m; sourceTree = "<group>"; };
+		0011457528F66C8F00863DCE /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		0011457628F66C8F00863DCE /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		0011457728F66C8F00863DCE /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
+		0011457828F66C8F00863DCE /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
+		0011457928F66C8F00863DCE /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		0011457A28F66C8F00863DCE /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
+		0016DC8428F67A8100796B62 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		0016DC8628F67AE100796B62 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		001AFD6D28F65467003F32BC /* tie-select.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tie-select.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		001AFD7028F65467003F32BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		001AFD7228F65467003F32BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		001AFD7428F65467003F32BC /* HomeMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenuViewController.swift; sourceTree = "<group>"; };
+		001AFD7928F65469003F32BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001AFD7E28F65469003F32BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001AFD8328F65469003F32BC /* tie-selectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tie-selectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		001AFD8728F65469003F32BC /* tie_selectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tie_selectTests.swift; sourceTree = "<group>"; };
+		001AFD8D28F65469003F32BC /* tie-selectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tie-selectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		001AFD9128F65469003F32BC /* tie_selectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tie_selectUITests.swift; sourceTree = "<group>"; };
+		001AFD9328F65469003F32BC /* tie_selectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tie_selectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		001E068B28F6F04E00AD9924 /* Ex-UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex-UIColor.swift"; sourceTree = "<group>"; };
+		001E068D28F6FAD600AD9924 /* TieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TieTableViewCell.swift; sourceTree = "<group>"; };
+		001E068F28F6FE0E00AD9924 /* Ex-String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex-String.swift"; sourceTree = "<group>"; };
+		001E069128F8319600AD9924 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		001E069328F84CB900AD9924 /* Ex-AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex-AppDelegate.swift"; sourceTree = "<group>"; };
+		001E069528F93C9200AD9924 /* Ex-UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex-UIImage.swift"; sourceTree = "<group>"; };
+		001E069728F9E45F00AD9924 /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		001E069B28FD93C900AD9924 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		0091858628F686AE000C10F8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		0091858928F689AF000C10F8 /* CommonTextFierld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTextFierld.swift; sourceTree = "<group>"; };
+		0091858C28F68FD3000C10F8 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		00A5A97428FD953400369E28 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		00A5A97628FD967F00369E28 /* Update.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Update.storyboard; sourceTree = "<group>"; };
+		00A5A97828FD982800369E28 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		00A5A97928FD982800369E28 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00C5DB6B29A2271500881E3A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		00C5DB6D29A2281600881E3A /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		00DC856928F69719001F2B0A /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		00DC856B28F69892001F2B0A /* SubButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubButton.swift; sourceTree = "<group>"; };
+		00DC856E28F6A0F9001F2B0A /* TieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TieModel.swift; sourceTree = "<group>"; };
+		00DC857028F6B8DA001F2B0A /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		4274B78FF2232C231B9CB46E /* Pods-tie-select.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tie-select.release.xcconfig"; path = "Target Support Files/Pods-tie-select/Pods-tie-select.release.xcconfig"; sourceTree = "<group>"; };
+		53C12CFE94164C91FE263FC7 /* Pods_tie_select.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tie_select.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842FE27A70CC56C02FB5F642 /* Pods-tie-select.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tie-select.debug.xcconfig"; path = "Target Support Files/Pods-tie-select/Pods-tie-select.debug.xcconfig"; sourceTree = "<group>"; };
+		C92B820C29D8496C00DAD48B /* TieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TieService.swift; sourceTree = "<group>"; };
+		C92B820E29D8516000DAD48B /* HistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryService.swift; sourceTree = "<group>"; };
+		C92B821129D8621B00DAD48B /* tie-select.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "tie-select.entitlements"; sourceTree = "<group>"; };
+		C92B821329D862AD00DAD48B /* NotificationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUtil.swift; sourceTree = "<group>"; };
+		C92B821729D87BC500DAD48B /* PushTimeUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTimeUtil.swift; sourceTree = "<group>"; };
+		C92B821929D89CC700DAD48B /* Ex-Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex-Date.swift"; sourceTree = "<group>"; };
+		C92B821C29D9461E00DAD48B /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		C92B821E29D9504C00DAD48B /* Ex-CIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex-CIImage.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001AFD6A28F65467003F32BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FBCBE8657BBEF413077F9C /* Pods_tie_select.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001AFD8028F65469003F32BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001AFD8A28F65469003F32BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0011455328F66C8F00863DCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0011455428F66C8F00863DCE /* Target Support Files */,
+				0011455528F66C8F00863DCE /* Local Podspecs */,
+				0011455728F66C8F00863DCE /* Headers */,
+				0011455828F66C8F00863DCE /* FSCalendar */,
+				842FE27A70CC56C02FB5F642 /* Pods-tie-select.debug.xcconfig */,
+				4274B78FF2232C231B9CB46E /* Pods-tie-select.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0011455428F66C8F00863DCE /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		0011455528F66C8F00863DCE /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		0011455728F66C8F00863DCE /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		0011455828F66C8F00863DCE /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				0011455928F66C8F00863DCE /* LICENSE */,
+				0011455A28F66C8F00863DCE /* README.md */,
+				0011455B28F66C8F00863DCE /* FSCalendar */,
+			);
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		0011455B28F66C8F00863DCE /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				0011455C28F66C8F00863DCE /* FSCalendarCollectionView.m */,
+				0011455D28F66C8F00863DCE /* FSCalendarWeekdayView.h */,
+				0011455E28F66C8F00863DCE /* FSCalendarCollectionViewLayout.h */,
+				0011455F28F66C8F00863DCE /* FSCalendarDelegationProxy.m */,
+				0011456028F66C8F00863DCE /* FSCalendarExtensions.h */,
+				0011456128F66C8F00863DCE /* FSCalendarDelegationFactory.m */,
+				0011456228F66C8F00863DCE /* FSCalendarSeparatorDecorationView.h */,
+				0011456328F66C8F00863DCE /* FSCalendarCalculator.h */,
+				0011456428F66C8F00863DCE /* FSCalendarHeaderView.h */,
+				0011456528F66C8F00863DCE /* FSCalendarConstants.h */,
+				0011456628F66C8F00863DCE /* FSCalendarAppearance.h */,
+				0011456728F66C8F00863DCE /* FSCalendarTransitionCoordinator.h */,
+				0011456828F66C8F00863DCE /* FSCalendarCell.m */,
+				0011456928F66C8F00863DCE /* FSCalendarStickyHeader.m */,
+				0011456A28F66C8F00863DCE /* FSCalendar.m */,
+				0011456B28F66C8F00863DCE /* FSCalendarCollectionViewLayout.m */,
+				0011456C28F66C8F00863DCE /* FSCalendarWeekdayView.m */,
+				0011456D28F66C8F00863DCE /* FSCalendarCollectionView.h */,
+				0011456E28F66C8F00863DCE /* FSCalendarDynamicHeader.h */,
+				0011456F28F66C8F00863DCE /* FSCalendarSeparatorDecorationView.m */,
+				0011457028F66C8F00863DCE /* FSCalendarDelegationFactory.h */,
+				0011457128F66C8F00863DCE /* FSCalendarExtensions.m */,
+				0011457228F66C8F00863DCE /* FSCalendarDelegationProxy.h */,
+				0011457328F66C8F00863DCE /* FSCalendarConstants.m */,
+				0011457428F66C8F00863DCE /* FSCalendarCalculator.m */,
+				0011457528F66C8F00863DCE /* FSCalendarHeaderView.m */,
+				0011457628F66C8F00863DCE /* FSCalendarStickyHeader.h */,
+				0011457728F66C8F00863DCE /* FSCalendar.h */,
+				0011457828F66C8F00863DCE /* FSCalendarCell.h */,
+				0011457928F66C8F00863DCE /* FSCalendarTransitionCoordinator.m */,
+				0011457A28F66C8F00863DCE /* FSCalendarAppearance.m */,
+			);
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		001AFD6428F65467003F32BC = {
+			isa = PBXGroup;
+			children = (
+				001AFD6F28F65467003F32BC /* tie-select */,
+				001AFD8628F65469003F32BC /* tie-selectTests */,
+				001AFD9028F65469003F32BC /* tie-selectUITests */,
+				0011455328F66C8F00863DCE /* Pods */,
+				001AFD6E28F65467003F32BC /* Products */,
+				6581E49AF0DFC5D737EDB751 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		001AFD6E28F65467003F32BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001AFD6D28F65467003F32BC /* tie-select.app */,
+				001AFD8328F65469003F32BC /* tie-selectTests.xctest */,
+				001AFD8D28F65469003F32BC /* tie-selectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001AFD6F28F65467003F32BC /* tie-select */ = {
+			isa = PBXGroup;
+			children = (
+				001AFDA228F654A8003F32BC /* src */,
+				001AFDA128F6549C003F32BC /* resource */,
+			);
+			path = "tie-select";
+			sourceTree = "<group>";
+		};
+		001AFD8628F65469003F32BC /* tie-selectTests */ = {
+			isa = PBXGroup;
+			children = (
+				001AFD8728F65469003F32BC /* tie_selectTests.swift */,
+			);
+			path = "tie-selectTests";
+			sourceTree = "<group>";
+		};
+		001AFD9028F65469003F32BC /* tie-selectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				001AFD9128F65469003F32BC /* tie_selectUITests.swift */,
+				001AFD9328F65469003F32BC /* tie_selectUITestsLaunchTests.swift */,
+			);
+			path = "tie-selectUITests";
+			sourceTree = "<group>";
+		};
+		001AFDA028F65489003F32BC /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				00A5A97928FD982800369E28 /* LaunchScreen.storyboard */,
+				00C5DB6D29A2281600881E3A /* Camera.storyboard */,
+				00A5A97828FD982800369E28 /* Main.storyboard */,
+				00A5A97428FD953400369E28 /* Register.storyboard */,
+				001E069B28FD93C900AD9924 /* Setting.storyboard */,
+				00A5A97628FD967F00369E28 /* Update.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		001AFDA128F6549C003F32BC /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				001AFD7928F65469003F32BC /* Assets.xcassets */,
+				001AFD7E28F65469003F32BC /* Info.plist */,
+				C92B821129D8621B00DAD48B /* tie-select.entitlements */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		001AFDA228F654A8003F32BC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C92B821B29D9460C00DAD48B /* camera */,
+				001AFDA328F654BA003F32BC /* controller */,
+				0091858B28F68FAB000C10F8 /* constant */,
+				00DC857228F6F009001F2B0A /* extension */,
+				C92B821229D8628200DAD48B /* push */,
+				C92B820B29D8495900DAD48B /* realm */,
+				001AFDA028F65489003F32BC /* storyboard */,
+				0091858828F68965000C10F8 /* ui */,
+				001AFD7028F65467003F32BC /* AppDelegate.swift */,
+				001AFD7228F65467003F32BC /* SceneDelegate.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		001AFDA328F654BA003F32BC /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0016DC8428F67A8100796B62 /* CalendarViewController.swift */,
+				00C5DB6B29A2271500881E3A /* CameraViewController.swift */,
+				001AFD7428F65467003F32BC /* HomeMenuViewController.swift */,
+				0016DC8628F67AE100796B62 /* ListViewController.swift */,
+				0091858628F686AE000C10F8 /* RegisterViewController.swift */,
+				00DC857028F6B8DA001F2B0A /* SettingViewController.swift */,
+				001E069128F8319600AD9924 /* UpdateViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0091858828F68965000C10F8 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				0091858928F689AF000C10F8 /* CommonTextFierld.swift */,
+				00DC856928F69719001F2B0A /* MainButton.swift */,
+				00DC856B28F69892001F2B0A /* SubButton.swift */,
+				001E068D28F6FAD600AD9924 /* TieTableViewCell.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		0091858B28F68FAB000C10F8 /* constant */ = {
+			isa = PBXGroup;
+			children = (
+				0091858C28F68FD3000C10F8 /* ColorConstants.swift */,
+			);
+			path = constant;
+			sourceTree = "<group>";
+		};
+		00DC856D28F6A0E0001F2B0A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				001E069728F9E45F00AD9924 /* HistoryModel.swift */,
+				00DC856E28F6A0F9001F2B0A /* TieModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		00DC857228F6F009001F2B0A /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				001E069328F84CB900AD9924 /* Ex-AppDelegate.swift */,
+				C92B821E29D9504C00DAD48B /* Ex-CIImage.swift */,
+				C92B821929D89CC700DAD48B /* Ex-Date.swift */,
+				001E068B28F6F04E00AD9924 /* Ex-UIColor.swift */,
+				001E069528F93C9200AD9924 /* Ex-UIImage.swift */,
+				001E068F28F6FE0E00AD9924 /* Ex-String.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		6581E49AF0DFC5D737EDB751 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53C12CFE94164C91FE263FC7 /* Pods_tie_select.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C92B820B29D8495900DAD48B /* realm */ = {
+			isa = PBXGroup;
+			children = (
+				00DC856D28F6A0E0001F2B0A /* model */,
+				C92B821029D8600F00DAD48B /* service */,
+			);
+			path = realm;
+			sourceTree = "<group>";
+		};
+		C92B821029D8600F00DAD48B /* service */ = {
+			isa = PBXGroup;
+			children = (
+				C92B820E29D8516000DAD48B /* HistoryService.swift */,
+				C92B820C29D8496C00DAD48B /* TieService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		C92B821229D8628200DAD48B /* push */ = {
+			isa = PBXGroup;
+			children = (
+				C92B821329D862AD00DAD48B /* NotificationUtil.swift */,
+				C92B821729D87BC500DAD48B /* PushTimeUtil.swift */,
+			);
+			path = push;
+			sourceTree = "<group>";
+		};
+		C92B821B29D9460C00DAD48B /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				C92B821C29D9461E00DAD48B /* VideoCapture.swift */,
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001AFD6C28F65467003F32BC /* tie-select */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001AFD9728F65469003F32BC /* Build configuration list for PBXNativeTarget "tie-select" */;
+			buildPhases = (
+				17B71929DBD5F65ABF34D707 /* [CP] Check Pods Manifest.lock */,
+				001AFD6928F65467003F32BC /* Sources */,
+				001AFD6A28F65467003F32BC /* Frameworks */,
+				001AFD6B28F65467003F32BC /* Resources */,
+				ABACC3C21EBC8ED31A736353 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tie-select";
+			productName = "tie-select";
+			productReference = 001AFD6D28F65467003F32BC /* tie-select.app */;
+			productType = "com.apple.product-type.application";
+		};
+		001AFD8228F65469003F32BC /* tie-selectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001AFD9A28F65469003F32BC /* Build configuration list for PBXNativeTarget "tie-selectTests" */;
+			buildPhases = (
+				001AFD7F28F65469003F32BC /* Sources */,
+				001AFD8028F65469003F32BC /* Frameworks */,
+				001AFD8128F65469003F32BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				001AFD8528F65469003F32BC /* PBXTargetDependency */,
+			);
+			name = "tie-selectTests";
+			productName = "tie-selectTests";
+			productReference = 001AFD8328F65469003F32BC /* tie-selectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		001AFD8C28F65469003F32BC /* tie-selectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001AFD9D28F65469003F32BC /* Build configuration list for PBXNativeTarget "tie-selectUITests" */;
+			buildPhases = (
+				001AFD8928F65469003F32BC /* Sources */,
+				001AFD8A28F65469003F32BC /* Frameworks */,
+				001AFD8B28F65469003F32BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				001AFD8F28F65469003F32BC /* PBXTargetDependency */,
+			);
+			name = "tie-selectUITests";
+			productName = "tie-selectUITests";
+			productReference = 001AFD8D28F65469003F32BC /* tie-selectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001AFD6528F65467003F32BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					001AFD6C28F65467003F32BC = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					001AFD8228F65469003F32BC = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 001AFD6C28F65467003F32BC;
+					};
+					001AFD8C28F65469003F32BC = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 001AFD6C28F65467003F32BC;
+					};
+				};
+			};
+			buildConfigurationList = 001AFD6828F65467003F32BC /* Build configuration list for PBXProject "tie-select" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 001AFD6428F65467003F32BC;
+			productRefGroup = 001AFD6E28F65467003F32BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001AFD6C28F65467003F32BC /* tie-select */,
+				001AFD8228F65469003F32BC /* tie-selectTests */,
+				001AFD8C28F65469003F32BC /* tie-selectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001AFD6B28F65467003F32BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A5A97728FD967F00369E28 /* Update.storyboard in Resources */,
+				0011457D28F66C9000863DCE /* README.md in Resources */,
+				001E069C28FD93C900AD9924 /* Setting.storyboard in Resources */,
+				00A5A97B28FD982800369E28 /* LaunchScreen.storyboard in Resources */,
+				001AFD7A28F65469003F32BC /* Assets.xcassets in Resources */,
+				00A5A97A28FD982800369E28 /* Main.storyboard in Resources */,
+				0011457C28F66C9000863DCE /* LICENSE in Resources */,
+				00C5DB6E29A2281600881E3A /* Camera.storyboard in Resources */,
+				00A5A97528FD953400369E28 /* Register.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001AFD8128F65469003F32BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001AFD8B28F65469003F32BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17B71929DBD5F65ABF34D707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tie-select-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABACC3C21EBC8ED31A736353 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tie-select/Pods-tie-select-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tie-select/Pods-tie-select-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tie-select/Pods-tie-select-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001AFD6928F65467003F32BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92B821A29D89CC700DAD48B /* Ex-Date.swift in Sources */,
+				0011458828F66C9000863DCE /* FSCalendarConstants.m in Sources */,
+				001E068C28F6F04E00AD9924 /* Ex-UIColor.swift in Sources */,
+				001AFD7528F65467003F32BC /* HomeMenuViewController.swift in Sources */,
+				0011458128F66C9000863DCE /* FSCalendarCell.m in Sources */,
+				0011458328F66C9000863DCE /* FSCalendar.m in Sources */,
+				0011458528F66C9000863DCE /* FSCalendarWeekdayView.m in Sources */,
+				0011458028F66C9000863DCE /* FSCalendarDelegationFactory.m in Sources */,
+				0011457F28F66C9000863DCE /* FSCalendarDelegationProxy.m in Sources */,
+				C92B821429D862AD00DAD48B /* NotificationUtil.swift in Sources */,
+				001E069428F84CB900AD9924 /* Ex-AppDelegate.swift in Sources */,
+				0011458B28F66C9000863DCE /* FSCalendarTransitionCoordinator.m in Sources */,
+				C92B820D29D8496C00DAD48B /* TieService.swift in Sources */,
+				001AFD7128F65467003F32BC /* AppDelegate.swift in Sources */,
+				00C5DB6C29A2271500881E3A /* CameraViewController.swift in Sources */,
+				C92B821D29D9461E00DAD48B /* VideoCapture.swift in Sources */,
+				C92B820F29D8516000DAD48B /* HistoryService.swift in Sources */,
+				0091858728F686AE000C10F8 /* RegisterViewController.swift in Sources */,
+				001E069828F9E45F00AD9924 /* HistoryModel.swift in Sources */,
+				001E069628F93C9200AD9924 /* Ex-UIImage.swift in Sources */,
+				0011458A28F66C9000863DCE /* FSCalendarHeaderView.m in Sources */,
+				001E069028F6FE0E00AD9924 /* Ex-String.swift in Sources */,
+				001AFD7328F65467003F32BC /* SceneDelegate.swift in Sources */,
+				001E069228F8319600AD9924 /* UpdateViewController.swift in Sources */,
+				0016DC8728F67AE100796B62 /* ListViewController.swift in Sources */,
+				0011458228F66C9000863DCE /* FSCalendarStickyHeader.m in Sources */,
+				0011458C28F66C9000863DCE /* FSCalendarAppearance.m in Sources */,
+				0011458628F66C9000863DCE /* FSCalendarSeparatorDecorationView.m in Sources */,
+				0011458928F66C9000863DCE /* FSCalendarCalculator.m in Sources */,
+				0011458428F66C9000863DCE /* FSCalendarCollectionViewLayout.m in Sources */,
+				C92B821F29D9504C00DAD48B /* Ex-CIImage.swift in Sources */,
+				0011457E28F66C9000863DCE /* FSCalendarCollectionView.m in Sources */,
+				0091858D28F68FD3000C10F8 /* ColorConstants.swift in Sources */,
+				001E068E28F6FAD600AD9924 /* TieTableViewCell.swift in Sources */,
+				00DC856A28F69719001F2B0A /* MainButton.swift in Sources */,
+				C92B821829D87BC500DAD48B /* PushTimeUtil.swift in Sources */,
+				0091858A28F689AF000C10F8 /* CommonTextFierld.swift in Sources */,
+				00DC856F28F6A0F9001F2B0A /* TieModel.swift in Sources */,
+				00DC857128F6B8DA001F2B0A /* SettingViewController.swift in Sources */,
+				00DC856C28F69892001F2B0A /* SubButton.swift in Sources */,
+				0016DC8528F67A8100796B62 /* CalendarViewController.swift in Sources */,
+				0011458728F66C9000863DCE /* FSCalendarExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001AFD7F28F65469003F32BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001AFD8828F65469003F32BC /* tie_selectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001AFD8928F65469003F32BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001AFD9228F65469003F32BC /* tie_selectUITests.swift in Sources */,
+				001AFD9428F65469003F32BC /* tie_selectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		001AFD8528F65469003F32BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 001AFD6C28F65467003F32BC /* tie-select */;
+			targetProxy = 001AFD8428F65469003F32BC /* PBXContainerItemProxy */;
+		};
+		001AFD8F28F65469003F32BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 001AFD6C28F65467003F32BC /* tie-select */;
+			targetProxy = 001AFD8E28F65469003F32BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001AFD9528F65469003F32BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		001AFD9628F65469003F32BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		001AFD9828F65469003F32BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842FE27A70CC56C02FB5F642 /* Pods-tie-select.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "tie-select/resource/tie-select.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = HPMKBR3QXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tie-select/resource/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tie Select";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "色の読み取りのため";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tkyk.tie-select";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		001AFD9928F65469003F32BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4274B78FF2232C231B9CB46E /* Pods-tie-select.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "tie-select/resource/tie-select.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = HPMKBR3QXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tie-select/resource/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tie Select";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "色の読み取りのため";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tkyk.tie-select";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		001AFD9B28F65469003F32BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tkyk.tie-selectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tie-select.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tie-select";
+			};
+			name = Debug;
+		};
+		001AFD9C28F65469003F32BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tkyk.tie-selectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tie-select.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tie-select";
+			};
+			name = Release;
+		};
+		001AFD9E28F65469003F32BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tkyk.tie-selectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tie-select";
+			};
+			name = Debug;
+		};
+		001AFD9F28F65469003F32BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tkyk.tie-selectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tie-select";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001AFD6828F65467003F32BC /* Build configuration list for PBXProject "tie-select" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001AFD9528F65469003F32BC /* Debug */,
+				001AFD9628F65469003F32BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001AFD9728F65469003F32BC /* Build configuration list for PBXNativeTarget "tie-select" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001AFD9828F65469003F32BC /* Debug */,
+				001AFD9928F65469003F32BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001AFD9A28F65469003F32BC /* Build configuration list for PBXNativeTarget "tie-selectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001AFD9B28F65469003F32BC /* Debug */,
+				001AFD9C28F65469003F32BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001AFD9D28F65469003F32BC /* Build configuration list for PBXNativeTarget "tie-selectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001AFD9E28F65469003F32BC /* Debug */,
+				001AFD9F28F65469003F32BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001AFD6528F65467003F32BC /* Project object */;
+}
