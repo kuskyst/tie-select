@@ -55,6 +55,12 @@
 		00DC856F28F6A0F9001F2B0A /* TieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC856E28F6A0F9001F2B0A /* TieModel.swift */; };
 		00DC857128F6B8DA001F2B0A /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC857028F6B8DA001F2B0A /* SettingViewController.swift */; };
 		19FBCBE8657BBEF413077F9C /* Pods_tie_select.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C12CFE94164C91FE263FC7 /* Pods_tie_select.framework */; };
+		C9243FBC2AC88477003EE2FC /* AppIcon4.png in Resources */ = {isa = PBXBuildFile; fileRef = C9243FB62AC88477003EE2FC /* AppIcon4.png */; };
+		C9243FBD2AC88477003EE2FC /* AppIcon4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9243FB72AC88477003EE2FC /* AppIcon4@2x.png */; };
+		C9243FBE2AC88477003EE2FC /* AppIcon4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9243FB82AC88477003EE2FC /* AppIcon4@3x.png */; };
+		C9243FBF2AC88477003EE2FC /* AppIcon3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9243FB92AC88477003EE2FC /* AppIcon3@2x.png */; };
+		C9243FC02AC88477003EE2FC /* AppIcon3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9243FBA2AC88477003EE2FC /* AppIcon3@3x.png */; };
+		C9243FC12AC88477003EE2FC /* AppIcon3.png in Resources */ = {isa = PBXBuildFile; fileRef = C9243FBB2AC88477003EE2FC /* AppIcon3.png */; };
 		C92B820D29D8496C00DAD48B /* TieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B820C29D8496C00DAD48B /* TieService.swift */; };
 		C92B820F29D8516000DAD48B /* HistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B820E29D8516000DAD48B /* HistoryService.swift */; };
 		C92B821429D862AD00DAD48B /* NotificationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B821329D862AD00DAD48B /* NotificationUtil.swift */; };
@@ -62,6 +68,9 @@
 		C92B821A29D89CC700DAD48B /* Ex-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B821929D89CC700DAD48B /* Ex-Date.swift */; };
 		C92B821D29D9461E00DAD48B /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B821C29D9461E00DAD48B /* VideoCapture.swift */; };
 		C92B821F29D9504C00DAD48B /* Ex-CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B821E29D9504C00DAD48B /* Ex-CIImage.swift */; };
+		C9784D8A2AC8833500EC02C7 /* AppIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = C9784D872AC8833500EC02C7 /* AppIcon2.png */; };
+		C9784D8B2AC8833500EC02C7 /* AppIcon2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9784D882AC8833500EC02C7 /* AppIcon2@3x.png */; };
+		C9784D8C2AC8833500EC02C7 /* AppIcon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9784D892AC8833500EC02C7 /* AppIcon2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +161,12 @@
 		4274B78FF2232C231B9CB46E /* Pods-tie-select.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tie-select.release.xcconfig"; path = "Target Support Files/Pods-tie-select/Pods-tie-select.release.xcconfig"; sourceTree = "<group>"; };
 		53C12CFE94164C91FE263FC7 /* Pods_tie_select.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tie_select.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		842FE27A70CC56C02FB5F642 /* Pods-tie-select.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tie-select.debug.xcconfig"; path = "Target Support Files/Pods-tie-select/Pods-tie-select.debug.xcconfig"; sourceTree = "<group>"; };
+		C9243FB62AC88477003EE2FC /* AppIcon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon4.png; sourceTree = "<group>"; };
+		C9243FB72AC88477003EE2FC /* AppIcon4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon4@2x.png"; sourceTree = "<group>"; };
+		C9243FB82AC88477003EE2FC /* AppIcon4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon4@3x.png"; sourceTree = "<group>"; };
+		C9243FB92AC88477003EE2FC /* AppIcon3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon3@2x.png"; sourceTree = "<group>"; };
+		C9243FBA2AC88477003EE2FC /* AppIcon3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon3@3x.png"; sourceTree = "<group>"; };
+		C9243FBB2AC88477003EE2FC /* AppIcon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon3.png; sourceTree = "<group>"; };
 		C92B820C29D8496C00DAD48B /* TieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TieService.swift; sourceTree = "<group>"; };
 		C92B820E29D8516000DAD48B /* HistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryService.swift; sourceTree = "<group>"; };
 		C92B821129D8621B00DAD48B /* tie-select.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "tie-select.entitlements"; sourceTree = "<group>"; };
@@ -160,6 +175,9 @@
 		C92B821929D89CC700DAD48B /* Ex-Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex-Date.swift"; sourceTree = "<group>"; };
 		C92B821C29D9461E00DAD48B /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 		C92B821E29D9504C00DAD48B /* Ex-CIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex-CIImage.swift"; sourceTree = "<group>"; };
+		C9784D872AC8833500EC02C7 /* AppIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon2.png; sourceTree = "<group>"; };
+		C9784D882AC8833500EC02C7 /* AppIcon2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon2@3x.png"; sourceTree = "<group>"; };
+		C9784D892AC8833500EC02C7 /* AppIcon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -334,6 +352,15 @@
 		001AFDA128F6549C003F32BC /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				C9784D872AC8833500EC02C7 /* AppIcon2.png */,
+				C9784D892AC8833500EC02C7 /* AppIcon2@2x.png */,
+				C9784D882AC8833500EC02C7 /* AppIcon2@3x.png */,
+				C9243FBB2AC88477003EE2FC /* AppIcon3.png */,
+				C9243FB92AC88477003EE2FC /* AppIcon3@2x.png */,
+				C9243FBA2AC88477003EE2FC /* AppIcon3@3x.png */,
+				C9243FB62AC88477003EE2FC /* AppIcon4.png */,
+				C9243FB72AC88477003EE2FC /* AppIcon4@2x.png */,
+				C9243FB82AC88477003EE2FC /* AppIcon4@3x.png */,
 				001AFD7928F65469003F32BC /* Assets.xcassets */,
 				001AFD7E28F65469003F32BC /* Info.plist */,
 				C92B821129D8621B00DAD48B /* tie-select.entitlements */,
@@ -562,12 +589,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9243FBD2AC88477003EE2FC /* AppIcon4@2x.png in Resources */,
+				C9243FBC2AC88477003EE2FC /* AppIcon4.png in Resources */,
+				C9784D8B2AC8833500EC02C7 /* AppIcon2@3x.png in Resources */,
 				00A5A97728FD967F00369E28 /* Update.storyboard in Resources */,
+				C9243FBE2AC88477003EE2FC /* AppIcon4@3x.png in Resources */,
 				0011457D28F66C9000863DCE /* README.md in Resources */,
 				001E069C28FD93C900AD9924 /* Setting.storyboard in Resources */,
 				00A5A97B28FD982800369E28 /* LaunchScreen.storyboard in Resources */,
+				C9243FC12AC88477003EE2FC /* AppIcon3.png in Resources */,
 				001AFD7A28F65469003F32BC /* Assets.xcassets in Resources */,
+				C9243FBF2AC88477003EE2FC /* AppIcon3@2x.png in Resources */,
+				C9784D8A2AC8833500EC02C7 /* AppIcon2.png in Resources */,
+				C9243FC02AC88477003EE2FC /* AppIcon3@3x.png in Resources */,
 				00A5A97A28FD982800369E28 /* Main.storyboard in Resources */,
+				C9784D8C2AC8833500EC02C7 /* AppIcon2@2x.png in Resources */,
 				0011457C28F66C9000863DCE /* LICENSE in Resources */,
 				00C5DB6E29A2281600881E3A /* Camera.storyboard in Resources */,
 				00A5A97528FD953400369E28 /* Register.storyboard in Resources */,

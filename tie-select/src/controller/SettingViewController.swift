@@ -16,6 +16,11 @@ class SettingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     // 通知時間帯
     @IBOutlet private weak var timePicker: UIDatePicker!
 
+    @IBOutlet private weak var check1: UIButton!
+    @IBOutlet private weak var check2: UIButton!
+    @IBOutlet private weak var check3: UIButton!
+    @IBOutlet private weak var check4: UIButton!
+
     // ステータスバーの色をホワイト指定
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
@@ -30,6 +35,21 @@ class SettingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
             inComponent: 0, animated: false)
         self.intervalPicker.delegate = self
 
+        switch UserDefaults.standard.integer(forKey: "icon") {
+            case 1:
+                check2.setImage(UIImage(named: "radio-on"), for: .normal)
+                break
+            case 2:
+                check3.setImage(UIImage(named: "radio-on"), for: .normal)
+                break
+            case 3:
+                check4.setImage(UIImage(named: "radio-on"), for: .normal)
+                break
+            default:
+                check1.setImage(UIImage(named: "radio-on"), for: .normal)
+                break
+            
+        }
         self.timePicker.date = PushTimeUtil.shared.getDate()
     }
 
@@ -65,4 +85,39 @@ class SettingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         NotificationUtil.shared.setTimerRequest()
     }
 
+    @IBAction private func icon1() {
+        check1.setImage(UIImage(named: "radio-on"), for: .normal)
+        check2.setImage(UIImage(named: "radio-off"), for: .normal)
+        check3.setImage(UIImage(named: "radio-off"), for: .normal)
+        check4.setImage(UIImage(named: "radio-off"), for: .normal)
+        UserDefaults.standard.set(0, forKey: "icon")
+        UIApplication.shared.setAlternateIconName(nil, completionHandler: { error in print(error ?? "") })
+    }
+
+    @IBAction private func icon2() {
+        check1.setImage(UIImage(named: "radio-off"), for: .normal)
+        check2.setImage(UIImage(named: "radio-on"), for: .normal)
+        check3.setImage(UIImage(named: "radio-off"), for: .normal)
+        check4.setImage(UIImage(named: "radio-off"), for: .normal)
+        UserDefaults.standard.set(1, forKey: "icon")
+        UIApplication.shared.setAlternateIconName("AppIcon2", completionHandler: { error in print(error ?? "") })
+    }
+
+    @IBAction private func icon3() {
+        check1.setImage(UIImage(named: "radio-off"), for: .normal)
+        check2.setImage(UIImage(named: "radio-off"), for: .normal)
+        check3.setImage(UIImage(named: "radio-on"), for: .normal)
+        check4.setImage(UIImage(named: "radio-off"), for: .normal)
+        UserDefaults.standard.set(2, forKey: "icon")
+        UIApplication.shared.setAlternateIconName("AppIcon3", completionHandler: { error in print(error ?? "") })
+    }
+
+    @IBAction private func icon4() {
+        check1.setImage(UIImage(named: "radio-off"), for: .normal)
+        check2.setImage(UIImage(named: "radio-off"), for: .normal)
+        check3.setImage(UIImage(named: "radio-off"), for: .normal)
+        check4.setImage(UIImage(named: "radio-on"), for: .normal)
+        UserDefaults.standard.set(3, forKey: "icon")
+        UIApplication.shared.setAlternateIconName("AppIcon4", completionHandler: { error in print(error ?? "") })
+    }
 }
