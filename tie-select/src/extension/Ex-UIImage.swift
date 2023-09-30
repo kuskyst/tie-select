@@ -8,16 +8,14 @@
 import UIKit
 
 extension UIImage {
-    func createLocalUrl(forImageNamed name: String, color: UIColor) -> URL? {
+
+    func createLocalUrl(forImageNamed name: String) -> URL? {
         let fileManager = FileManager.default
         let cacheDirectory = fileManager.urls(for: .cachesDirectory, in: .userDomainMask)[0]
         let url = cacheDirectory.appendingPathComponent("\(name).png")
 
         guard fileManager.fileExists(atPath: url.path) else {
-            guard var image = UIImage(named: name) else { return nil }
-            image = image.tinted(with: color)
-
-            guard let data = image.pngData() else { return nil }
+            guard let data = self.pngData() else { return nil }
 
             fileManager.createFile(atPath: url.path, contents: data, attributes: nil)
             return url

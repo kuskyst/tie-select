@@ -1,0 +1,6 @@
+framework module Pods_tie_select {
+  umbrella header "Pods-tie-select-umbrella.h"
+
+  export *
+  module * { export * }
+}

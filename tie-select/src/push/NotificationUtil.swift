@@ -30,6 +30,10 @@ final class NotificationUtil: NSObject, UNUserNotificationCenterDelegate {
 
     // 通知定期送信
     func setTimerRequest() {
+        let formatter: DateFormatter = DateFormatter()
+        formatter.locale = Locale(identifier: "ja_JP")
+        formatter.timeZone = TimeZone(identifier: "Asia/Tokyo")
+        formatter.dateFormat = "yyyy-MM-dd"
         // 現在予定されている通知を削除
         self.center.removeAllPendingNotificationRequests()
         // 通知時間の条件指定
@@ -45,12 +49,16 @@ final class NotificationUtil: NSObject, UNUserNotificationCenterDelegate {
             let content = UNMutableNotificationContent()
             content.title = "本日はこちら"
             content.body = his.tieName
-            let image = UIImage(named: "suit")
+            var image = UIImage(named: "tie")!
+                .tinted(with: UIColor(hex: his.tieMainColor)!)
+                .resize(size: CGSize.init(width: 18, height: 30))!
+                .overlay(image: UIImage(named: "suit")!, width: 22, height: 22)
+
             if let imgUrl =
-                        image?.createLocalUrl(forImageNamed: "suit",
-                        color: UIColor(hex: his.tieMainColor)!) {
+                image!.createLocalUrl(
+                    forImageNamed: "tieSuit-\(formatter.string(from: targetDay))") {
                 content.attachments =
-                    [try! UNNotificationAttachment(identifier: "suit", url: imgUrl, options: nil)]
+                    [try! UNNotificationAttachment(identifier: "tie", url: imgUrl, options: nil)]
             }
             let request = UNNotificationRequest(identifier: "notification", content: content, trigger: trigger)
             UNUserNotificationCenter.current().add(request)
