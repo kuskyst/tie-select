@@ -4,22 +4,22 @@
 
 
 ### ネクタイを登録する
-<img width="300" src="https://github.com/kuskyst/tie-select/assets/126965999/c4a00159-eaea-4fc2-b5e1-d7fe0184103f">
+<img width="300" src="https://github.com/kuskyst/tie-select/assets/126965999/a103f682-d862-47f4-b4fb-fcdcabd61277">
 →→→→→→
-<img width="300" src="https://github.com/kuskyst/tie-select/assets/126965999/bc9e0e51-506c-4f69-b790-717127b0dcd0">
+<img width="300" src="https://github.com/kuskyst/tie-select/assets/126965999/ec8a3abd-f355-44df-874c-f34443f2d0a7">
 
 
 ### その日のネクタイを提案
-<img width="300" src="https://github.com/kuskyst/tie-select/assets/126965999/dc21dafd-a3d7-4845-ac11-90b8882a5edf">
+<img width="300" src="https://github.com/kuskyst/tie-select/assets/126965999/aaa4f725-bc87-4418-8d51-8b9ec693c5d3">
 
 
 
 ### 通知設定をして毎日決まった時間にPUSH通知
-<img width="300" src="https://github.com/kuskyst/tie-select/assets/126965999/d5bac9dd-c195-4734-88c1-09c5d2ac6226">
+<img width="300" src="https://github.com/kuskyst/tie-select/assets/126965999/97e2d86c-47bb-4604-a6ea-cc046cf4bd93">
 →→→→→→
-<img width="300" src="https://github.com/kuskyst/tie-select/assets/126965999/f2326c58-60bf-426e-9ea2-6f13aeafe8ac">
+<img width="300" src="https://github.com/kuskyst/tie-select/assets/126965999/889abbdb-fee1-4fce-aa26-3048f0f77c14">
 
 
 
 ### 着用したネクタイのカレンダー記録
-<img width="300" src="https://github.com/kuskyst/tie-select/assets/126965999/6e0cffcf-8ccc-4ce0-9f4d-55a7a52f2f32">
+<img width="300" src="https://github.com/kuskyst/tie-select/assets/126965999/88c1b84b-0106-4e7e-86bd-db23c09cc4f8">
